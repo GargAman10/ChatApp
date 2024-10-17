@@ -1,0 +1,26 @@
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+  "username": "piyush_40",
+  "secret": "1234"
+}
+
+{
+    "username": "piyush_patel",
+    "secret": "1234"
+}
+
+###
+
+POST http://localhost:3001/signup
+Content-Type: application/json
+
+{
+  "username": "piyush_40",
+  "secret": "",
+  "email": "netify964@gmail.com",
+  "first_name": "Piyush",
+  "last_name": "Patel"
+}
